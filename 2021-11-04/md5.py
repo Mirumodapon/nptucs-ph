@@ -22,6 +22,7 @@ while True:
   flag += '}'
   if (MD5(flag) == 'dfb3d86e2f71fc381012b1beeba20937'):
     print(flag)
+    break
 
 ''' 上各教的做法
 m = md5()
