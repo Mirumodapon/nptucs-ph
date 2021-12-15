@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /*.php
+Disallow: /login/*.php
+Disallow: /.gitignore
+
+User-agent: PH
+Disallow: /.env
+Disallow: /AtTkwwZuJNeeQlvxeHGP/5KaRevADSoRXOxPAOjjV/
