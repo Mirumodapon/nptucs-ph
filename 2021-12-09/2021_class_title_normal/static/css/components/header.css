@@ -1,0 +1,29 @@
+:root {
+    --header-fontSize: 1.6rem;
+}
+
+header {
+    width: 100vw;
+    height: 60px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .logo {
+    font-size: var(--header-fontSize);
+    margin: auto 20px;
+}
+
+header > ul {
+    font-size: var(--header-fontSize);
+    margin: auto 20px;
+
+    list-style: none;
+}
+
+header > ul > li {
+    display: inline-block;
+    margin: auto 8px;
+}

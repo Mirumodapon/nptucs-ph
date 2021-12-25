@@ -1,0 +1,28 @@
+.center {
+    margin: 12px 0;
+}
+
+.center > p {
+    text-align: center;
+}
+
+.info > * {
+    margin: 8px 0;
+}
+
+.switch {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+form {
+    line-height: 32px;
+}
+
+.broken > img {
+    width: 300px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}

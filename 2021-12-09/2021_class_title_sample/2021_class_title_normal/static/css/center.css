@@ -1,0 +1,39 @@
+main {
+    width: 100vw;
+    height: calc(100vh - 61px);
+    overflow-y: auto;
+
+    font-size: 1.6rem;
+    position: relative;
+}
+main > span {
+    font-size: 2.4rem;
+    display: block;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+main > img,
+main > .center {
+    display: block;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+}
+
+.column {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
