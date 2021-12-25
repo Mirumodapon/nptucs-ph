@@ -1,0 +1,75 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    width: 700px;
+    height: 90%;
+    margin: 0 auto;
+    border: 2px black solid;
+    flex-direction: column;
+}
+
+#input-field {
+    flex-basis: 35px;
+    width: 100%;
+}
+
+#input-field > form {
+    display: grid;
+    grid-template-columns: auto 75px;
+}
+
+#input-field > form > input {
+    font-size: 20px;
+}
+
+#msg-field {
+    display: flex;
+    flex: auto;
+    overflow-y: auto;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+#msg-field > .messages {
+    margin: 5px 20px;
+}
+
+#msg-field > .messages > .from >.time {
+    font-size: 12px;
+}
+
+#msg-field > .messages > .info >.prompt {
+    font-size: 12px;
+}
+
+#msg-field > .messages > .msg {
+    font-size: 18px;
+}
+
+:root {
+    --animation-time: 10s;
+    --light-rainbow-colors: #F08080, #FFA07A, #FAFAD2, #90EE90, #87CEFA, #7B68EE, #BA55D3;
+}
+
+@keyframes ani {
+    0%,100% {background-position: 0 0}
+    50% {background-position: 0 100%}
+}
+
+pre, body {
+    animation: ani var(--animation-time) linear infinite;
+    background: linear-gradient(180deg, var(--light-rainbow-colors));
+    background-size: 100% 1500%;
+}
+            
